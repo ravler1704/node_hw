@@ -19,11 +19,11 @@ const argv = yargs(hideBin(process.argv))
 let resultDate = new Date()
 
 if (argv.m) {
-  resultDate.setMonth(resultDate.getMonth() + Number(argv.m))
+  resultDate.setMonth(resultDate.getMonth() - Number(argv.m))
 }
 
 if (argv.d) {
-  resultDate.setDate(resultDate.getDate() + Number(argv.d))
+  resultDate.setDate(resultDate.getDate() - Number(argv.d))
 }
 
 console.log(resultDate.toISOString());

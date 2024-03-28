@@ -22,7 +22,7 @@ const argv = yargs(hideBin(process.argv))
 
 let year
 let month
-let day
+let date
 let result = []
 
 // Выводим результат в консоль
@@ -31,7 +31,7 @@ if (process.argv.length <= 2) {
 } else {
   year = new Date().getUTCFullYear().toString()
   month = pad(new Date().getUTCMonth() + 1)
-  day = pad(new Date().getUTCDay())
+  date = pad(new Date().getUTCDate())
 
   if (argv.year) {
     result.push(year)
@@ -45,9 +45,10 @@ if (process.argv.length <= 2) {
     result = []
     result.push(year)
     result.push(month)
-    result.push(day)
+    result.push(date)
   }
 
+  debugger
   console.log(result.join('-'));
 }
 

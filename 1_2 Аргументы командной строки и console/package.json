@@ -5,11 +5,13 @@
   "main": "current.js",
   "bin": {
     "current": "./current.js",
-    "add": "./add.js"
+    "add": "./add.js",
+    "sub": "./sub.js"
   },
   "scripts": {
-    "current": "node current.js",
-    "add": "node current.js"
+    "current": "node current.js -d",
+    "add": "node add.js",
+    "sub": "node sub.js"
   },
   "author": "",
   "license": "ISC",
