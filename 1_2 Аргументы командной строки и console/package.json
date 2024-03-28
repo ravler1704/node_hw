@@ -4,10 +4,12 @@
   "description": "",
   "main": "current.js",
   "bin": {
-    "current": "./current.js"
+    "current": "./current.js",
+    "add": "./add.js"
   },
   "scripts": {
-    "start": "node current.js"
+    "current": "node current.js",
+    "add": "node current.js"
   },
   "author": "",
   "license": "ISC",

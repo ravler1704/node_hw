@@ -27,7 +27,7 @@ let result = []
 
 // Выводим результат в консоль
 if (process.argv.length <= 2) {
-  console.log(new Date());
+  console.log(new Date().toISOString());
 } else {
   year = new Date().getUTCFullYear().toString()
   month = pad(new Date().getUTCMonth() + 1)
