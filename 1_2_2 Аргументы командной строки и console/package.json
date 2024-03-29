@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "readline-promise": "^1.0.5",
+    "yargs": "^17.7.2"
+  }
+}
