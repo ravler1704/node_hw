@@ -1,17 +1,10 @@
 {
   "name": "1_2",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "current.js",
   "bin": {
-    "current": "./current.js",
-    "add": "./add.js",
-    "sub": "./sub.js"
-  },
-  "scripts": {
-    "current": "node current.js -d",
-    "add": "node add.js",
-    "sub": "node sub.js"
+    "xdate": "xdate.js"
   },
   "author": "",
   "license": "ISC",
